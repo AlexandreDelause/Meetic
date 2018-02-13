@@ -1,0 +1,114 @@
+#search{
+  font-size: 25px;
+  color: white;
+  padding-left: 750px;
+  padding-top: 150px;
+}
+
+#profil{
+font-size: 25px;
+color: white;
+padding-left: 800px;
+padding-top: 150px;
+}
+
+.pformco
+{
+  padding-left: 200px;
+}
+
+.pform
+{
+  padding-left: 165px;
+}
+
+.erreur
+{
+  padding-left: 125px;
+  color: red;
+}
+
+body
+{
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 10px;
+    background-image: url("backgroundsite.png");
+}
+#nav {
+	padding: 0; margin: 0;
+	text-align: center; /* centrer le texte */
+}
+#nav li {
+	display: inline;
+	list-style: none;
+}
+#nav a {
+	display:inline-block;
+	margin: 0 30px;
+}
+#nav {
+	padding: 0; margin: 0;
+}
+#nav li {
+	display: inline;
+	list-style: none; /* nécessaire pour IE7 */
+}
+.champ
+{
+    background: white;
+    border: grey 2px solid;
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0px);
+    box-shadow: 0px 0px 1px transparent;
+    transition-duration: 0.5s;
+    background-color: rgba(125, 125, 125, 0.3);
+}
+
+td {
+    width: 150px;
+    padding: 0;
+}
+
+.my_button
+{
+    border: 0px black solid;
+    border-radius: 5px;
+    box-shadow: 0px 2px 0px black;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.champ:hover, .champ:focus, .champ:active {
+background-color: rgba(125, 125, 125, 0.7);
+    transform: scale(1.2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+#formulaire
+{
+    color: lightgray;
+    width: 450px;
+    margin: auto;
+    border: 3px solid black;
+    box-shadow: 0px  6px 12px purple;
+    border-radius: 10px ;
+    padding: 10px;
+    margin-top: 210px;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+a {
+  color: purple;
+}
+
+a:active {
+  color: lightgray;
+}
+a:visited {
+  color: darkgray;
+}
